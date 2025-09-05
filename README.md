@@ -6,6 +6,7 @@ Install flox:
 Run the following wo commands to launch the application:
 ```
 git clone git@github.com:terelprime/klonk
+cd klonk
 flox activate
 flox services start
 ```

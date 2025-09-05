@@ -1,0 +1,267 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "ant": {
+        "pkg-path": "ant"
+      },
+      "openjdk": {
+        "pkg-path": "openjdk"
+      }
+    },
+    "hook": {
+      "on-activate": "#   # -> Set variables, create files and directories\n#   # -> Perform initialization steps, e.g. create a python venv\n#   # -> Useful environment variables:\n#   #      - FLOX_ENV_PROJECT=/home/user/example\n#   #      - FLOX_ENV=/home/user/example/.flox/run\n#   #      - FLOX_ENV_CACHE=/home/user/example/.flox/cache\nant clean config.prod jar\n"
+    },
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ]
+    },
+    "services": {
+      "klonk": {
+        "command": "java -jar ./dist/klonk.jar"
+      }
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "ant",
+      "broken": false,
+      "derivation": "/nix/store/s06a4hr8zkk369s1rjvapdvswv2mr7nc-ant-1.10.15.drv",
+      "description": "Java-based build tool",
+      "install_id": "ant",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "ant-1.10.15",
+      "pname": "ant",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:28:52.111200Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.10.15",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nr4lg5qp65d3742bm9mcsginb96lkkbd-ant-1.10.15"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ant",
+      "broken": false,
+      "derivation": "/nix/store/w6l6bj41s9r7ifw9xklfxcnrymyz3c4w-ant-1.10.15.drv",
+      "description": "Java-based build tool",
+      "install_id": "ant",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "ant-1.10.15",
+      "pname": "ant",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:37:15.357275Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.10.15",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/71l5wy7lk1g0bbkhz2nxyiq1h72fw4y6-ant-1.10.15"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ant",
+      "broken": false,
+      "derivation": "/nix/store/qffzy4vmd9lmgckilxsxp4cwcs30473a-ant-1.10.15.drv",
+      "description": "Java-based build tool",
+      "install_id": "ant",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "ant-1.10.15",
+      "pname": "ant",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:45:25.155342Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.10.15",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/6hwm7mmyrmlqckh57vbby0gmg5z3wd57-ant-1.10.15"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ant",
+      "broken": false,
+      "derivation": "/nix/store/dr0aam0a8gdbq7sivnsgipmjxlpkgs6m-ant-1.10.15.drv",
+      "description": "Java-based build tool",
+      "install_id": "ant",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "ant-1.10.15",
+      "pname": "ant",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:52:52.010440Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.10.15",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3fz0zawll3s4bhm43v4baqg5h64ch4s9-ant-1.10.15"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openjdk",
+      "broken": false,
+      "derivation": "/nix/store/aam70j95yayknpf0yw5jc0ia9njxw5zh-zulu-ca-jdk-21.0.4.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "openjdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "zulu-ca-jdk-21.0.4",
+      "pname": "openjdk",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:28:58.114558Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "21.0.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/44xk2w0lk9arb0yjb2n75blrv1ivjh55-zulu-ca-jdk-21.0.4"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openjdk",
+      "broken": false,
+      "derivation": "/nix/store/9miizld79bhbh3y5w4yzk38brsyfxyjk-openjdk-21.0.7+6.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "openjdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "openjdk-21.0.7+6",
+      "pname": "openjdk",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:37:30.465166Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "21.0.7+6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/mks8rml4753zx8rk4nkaviasa77qpsq2-openjdk-21.0.7+6-debug",
+        "out": "/nix/store/dfjsqvlykvapbkcf4apsbh6maf9p40zd-openjdk-21.0.7+6"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openjdk",
+      "broken": false,
+      "derivation": "/nix/store/fc3my3w89mv3g681lx7x633hr04gdbgd-zulu-ca-jdk-21.0.4.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "openjdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "zulu-ca-jdk-21.0.4",
+      "pname": "openjdk",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:45:31.290950Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "21.0.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/0sr0c86bkqqlfpzad6ljalv88ky3ncaf-zulu-ca-jdk-21.0.4"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openjdk",
+      "broken": false,
+      "derivation": "/nix/store/501xdhcg8w4a18zbpxqwwgj5clall433-openjdk-21.0.7+6.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "openjdk",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "openjdk-21.0.7+6",
+      "pname": "openjdk",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:53:09.220511Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "21.0.7+6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/64y2qsvxyhp77gyd795jb77nv86fnvd7-openjdk-21.0.7+6-debug",
+        "out": "/nix/store/dk9rdmd2zvj0904m7qsaq1hv9hzga3x8-openjdk-21.0.7+6"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
